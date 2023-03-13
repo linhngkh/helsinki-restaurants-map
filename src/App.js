@@ -51,9 +51,10 @@ const Tags = styled.p`
 `;
 
 function App() {
+  console.log(data.restaurants);
   return (
     <Fragment>
-      <Navbar />
+      <Navbar data={data} />
       <Section>
         <ImageContainers>
           {" "}

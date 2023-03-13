@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import data from "../data.json";
+import { useState, useEffect } from "react";
 const NavBarContainer = styled.div`
   height: 100px;
   position: sticky;
@@ -37,14 +38,24 @@ const Button = styled.button`
   }
 `;
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const [sortList, setSortList] = useState([]);
+
+  const ascendingEvent = () => {
+    let data = [...sortList];
+    if (data.length > 0) {
+      let result = data.sort((a, b) => a.name.localeCompare(b.name));
+      setSortList(result);
+    }
+  };
+
   return (
     <NavBarContainer>
       <Link href="/">
         <Title>Restaurants In Helsinki</Title>
       </Link>
-      <Button>Sort restaurants from A-Z</Button>
-      <Button>Sort restaurants from Z-A</Button>
+      <Button onClick={ascendingEvent}>Sort restaurants from A-Z</Button>
+      {/* <Button onClick={descendingEvent}>Sort restaurants from Z-A</Button> */}
     </NavBarContainer>
   );
 };

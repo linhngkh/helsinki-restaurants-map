@@ -10,6 +10,7 @@ const NavBarContainer = styled.div`
 
 const Title = styled.h1`
   color: black;
+  transition: all 0.5s ease-out;
   &:hover {
     color: #00c2eb;
   }
@@ -28,7 +29,9 @@ const Button = styled.button`
   font-size: 16px;
   font-weight: 400;
   border-radius: 7px;
-  &:hover {
+  transition: all 0.5s ease-out;
+  &:hover,
+  &:focus {
     color: white;
     background-color: black;
   }

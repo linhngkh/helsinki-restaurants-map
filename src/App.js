@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { Fragment } from "react";
 import data from "./data.json";
 import styled from "styled-components";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,7 @@ const ImageContainers = styled.div`
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 15px;
+  gap: 20px 40px;
 `;
 
 const ImageBox = styled.div`
@@ -22,9 +22,15 @@ const ImageBox = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 300px;
-  border-radius: 5px;
+  border-radius: 10px;
   object-fit: cover;
   object-position: bottom;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  &:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 `;
 
 const Title = styled.h2`
@@ -35,7 +41,7 @@ const Desc = styled.h3`
 `;
 const Tags = styled.p`
   font-size: 14px;
-  background-color: #00c2eb;
+  background-color: black;
   padding: 10px;
   width: 5rem;
   display: inline;

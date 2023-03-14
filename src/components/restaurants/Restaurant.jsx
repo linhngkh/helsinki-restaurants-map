@@ -1,5 +1,4 @@
-import { Fragment, useState, useContext } from "react";
-import { SortingContext } from "../../context/SortingContext";
+import { useGlobalContext } from "../../context/SortingContext";
 
 import styled from "styled-components";
 
@@ -50,15 +49,14 @@ const Tags = styled.p`
   text-transform: capitalize;
 `;
 const Restaurant = () => {
-  const { sortingList, setSortingList } = useContext(SortingContext);
+  const { sortingList } = useGlobalContext();
+  console.log(sortingList);
   return (
     <Section>
       <ImageContainers>
-        {" "}
-        {sortingList.restaurants.map((item, id) => (
+        {sortingList.map((item, id) => (
           <ImageBox key={id}>
             <Image src={item.image} alt="photo" />
-
             <Title>{item.name}</Title>
             <Desc>{item.description}</Desc>
             <Tags>{item.tags}</Tags>

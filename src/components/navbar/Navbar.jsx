@@ -1,7 +1,7 @@
+import { useGlobalContext } from "../../context/SortingContext";
 import styled from "styled-components";
-import Button from "../button/Button";
-import { SortingContext } from "../../context/SortingContext";
-import { useContext } from "react";
+
+import { ButtonStyled } from "../button/Button";
 
 const NavBarContainer = styled.div`
   height: 100px;
@@ -25,15 +25,30 @@ const Link = styled.a`
   cursor: pointer;
 `;
 
+const Span = styled.span`
+  margin-left: 10px;
+`;
+
 const Navbar = () => {
-  const { sortingList, setSortingList } = useContext(SortingContext);
+  const { sortingList, setSortingList } = useGlobalContext();
+
+  const ascendingName = () => {};
+
+  const descendingName = () => {};
 
   return (
     <NavBarContainer>
       <Link href="/">
         <Title>Restaurants In Helsinki</Title>
       </Link>
-      <Button />
+      <ButtonStyled onClick={ascendingName}>
+        Sort restaurants from A-Z
+      </ButtonStyled>
+      <Span>
+        <ButtonStyled onClick={descendingName}>
+          Sort restaurants from Z-A
+        </ButtonStyled>
+      </Span>
     </NavBarContainer>
   );
 };

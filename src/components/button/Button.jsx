@@ -1,11 +1,9 @@
+
 import styled from "styled-components";
 
 const Container = styled.div``;
-const Span = styled.span`
-  margin-left: 10px;
-`;
 
-const ButtonStyled = styled.button`
+export const ButtonStyled = styled.button`
   cursor: pointer;
   padding: 10px 15px;
   border: 2px solid black;
@@ -21,13 +19,10 @@ const ButtonStyled = styled.button`
   }
 `;
 
-const Button = () => {
+const Button = ({ buttonText, handleSorting }) => {
   return (
     <Container>
-      <ButtonStyled>Sort restaurants from A-Z</ButtonStyled>
-      <Span>
-        <ButtonStyled>Sort restaurants from Z-A</ButtonStyled>
-      </Span>
+      <ButtonStyled onClick={handleSorting}>{buttonText}</ButtonStyled>
     </Container>
   );
 };

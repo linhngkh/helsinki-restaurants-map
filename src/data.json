@@ -1,7 +1,6 @@
-{
-    "restaurants": [
+[
         {
-            "blurhash": "UUKJMXv|x]oz0gtRM{V@AHRQwvxZXSs9s;o0",
+            "blurhash": "j3I8lGUw;;Pu00X;4ygP0Jci:j;I",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -19,7 +18,7 @@
             ]
         },
         {
-            "blurhash": "U8INy*D+KjIW%3pZ$yx[5T0Lv|_1.3m,0z9h",
+            "blurhash": "j2DUFG8jbu8AXuLIT5Tt0B01R2;;",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -37,7 +36,7 @@
             ]
         },
         {
-            "blurhash": "UXJHswsy-n%0~T%Ka%NLNFjFxvNe%MRjM|ax",
+            "blurhash": "jePrOTda;;dnjc8Qczp48Qd4cOl3",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -55,7 +54,7 @@
             ]
         },
         {
-            "blurhash": "ULL;EN%4?c-Oys?wxuTJ?ujERQMxw[M{aeR4",
+            "blurhash": "j7LHeDTu;;XkT;;;Ttjd;;FkgQcO",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -73,7 +72,7 @@
             ]
         },
         {
-            "blurhash": "UELWIZ-n~pxt?a9tbwIpx^o#OoRkbsD%tP^P",
+            "blurhash": "j5KFK1XI;;Ts;K4Ord8QPuLcj9h5",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -91,7 +90,7 @@
             ]
         },
         {
-            "blurhash": "UZP$~|R*o~tRyEM{V[f7?wRjVsV@IAozfhae",
+            "blurhash": "jdUdzghlHuPdTLcPl5tD;;h4l3l4",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -109,7 +108,7 @@
             ]
         },
         {
-            "blurhash": "UdI3~;Ip0}Rk={bH9]oJW.RjnlbvNeV@xtbI",
+            "blurhash": "jaDntu8P0zh4;JqG4QOCmBh4Jqrc",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -127,7 +126,7 @@
             ]
         },
         {
-            "blurhash": "U8Q9.m.TDitlysx]9u%2?bVX-TIn_2gP?bxu",
+            "blurhash": "j2U:3uX;8hPuT;TK4PTt;;kyXscP",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -145,7 +144,7 @@
             ]
         },
         {
-            "blurhash": "UEKTMO_N@XpINfXn%Mxu_2kV9FtSi{V@RORj",
+            "blurhash": "j5Ip9Y;;YgLtdsndTuTt;;Db4hPt",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -163,7 +162,7 @@
             ]
         },
         {
-            "blurhash": "UEKTMO_N@XpINfXn%Mxu^+kV9FtSi{V@RORj",
+            "blurhash": "j5Ip9Y;;YgLtdsndTuTt;;Db4hPt",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -181,7 +180,7 @@
             ]
         },
         {
-            "blurhash": "UGGI7M9Y.T-Q_N4:.8W,-;xC-:o3Rkjvn$$$",
+            "blurhash": "j6znZJ8xX;Xm;;4yX;mkXKORXJKr",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -199,7 +198,7 @@
             ]
         },
         {
-            "blurhash": "UTE.Oqxu0fxu-:soWCSgNIWXxZs:NJW=kAs.",
+            "blurhash": "j4wmVzXK00XK;;SWh5eH8RlGXsTc",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -217,7 +216,7 @@
             ]
         },
         {
-            "blurhash": "UULXA2%1%%a#oIxZM{kC.TofROWCxuRkogWU",
+            "blurhash": "jbKHeMTcT;pWKCTbgPGXX;KXgPlC",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -232,7 +231,7 @@
             "tags": []
         },
         {
-            "blurhash": "UFCsQ;M|slM~$kfloLsA02xsR.xWxuslW:W=",
+            "blurhash": "j1rCxv4iSz8B;uCYOHRB00;Jdd;l",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -250,7 +249,7 @@
             ]
         },
         {
-            "blurhash": "UOGuj,=_xt01nz%2$jR64nRjj[nkS$M|bFxu",
+            "blurhash": "j5AoG2;ITt00Ji;JXcgy00d3KHN7",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -268,7 +267,7 @@
             ]
         },
         {
-            "blurhash": "UHKKK5^Qo|%3*0GZXUR44n$fx9s;Z$M{xas,",
+            "blurhash": "j6I9:i;tLcXdT;bunegO4gSRSPOX",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -286,7 +285,7 @@
             ]
         },
         {
-            "blurhash": "UMLNV:rqJ7Mc~pkrNf%NyE-AVYt6J.oKRPx^",
+            "blurhash": "j8KqSFN3dlgx;;HtdITKTLXbkPOX",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -304,7 +303,7 @@
             ]
         },
         {
-            "blurhash": "UYLgb6ad*0%24nf6DiRjI]RjMxSgMxx[kBRQ",
+            "blurhash": "jcKWWCpkX;Tt00BC8hh4dsh4gOmG",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -322,7 +321,7 @@
             ]
         },
         {
-            "blurhash": "UUG8TIIAnO%2~AspRkRP^iaJwwxZV@oLr?n%",
+            "blurhash": "jbz7FNcyJ4Tt;KOrl5gQ;Jp4RSTb",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -340,7 +339,7 @@
             ]
         },
         {
-            "blurhash": "UPF5N}I7WBNfoff6oejY+[JCNZS2jdawofWY",
+            "blurhash": "j4wSRV40h49dPctmPbFAZ29d94dl",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -358,7 +357,7 @@
             ]
         },
         {
-            "blurhash": "UKK0NI0K?HRPRi%MIpNe9{RkR*tQIUoMoeWU",
+            "blurhash": "j4HEpz00;;gPcPXK8z9b0Vd4h5Tt",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -376,7 +375,7 @@
             ]
         },
         {
-            "blurhash": "UOH1xsM{?HtR0dR-bFs;KQIpbXn+ibxuxakV",
+            "blurhash": "j4Bo1Xcz;;TK00hamBTc7v8zmQJr",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -394,7 +393,7 @@
             ]
         },
         {
-            "blurhash": "URF4=1JC~8=^S5ofxsW=e=$$n+s-s.$$o2sn",
+            "blurhash": "jawS8yds;IXrlHKXTbmHBpSWJFOT",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -412,7 +411,7 @@
             ]
         },
         {
-            "blurhash": "UWLfv{IVKR%L~UV_a$X80#RRR4oLjZRlV@oI",
+            "blurhash": "jcKVG28zfeTt;:l9pXmX0AgRgyKG",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -430,7 +429,7 @@
             ]
         },
         {
-            "blurhash": "UdO{~rfm~qs.byk9o#oI-pbIISa$x]obV[Rk",
+            "blurhash": "jeSsSWCI;;OWreGCLdKBXKuHcxpG",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -448,7 +447,7 @@
             ]
         },
         {
-            "blurhash": "UDI;3F~Ue7My|r?FKkwHxURO-TOZWUixoex]",
+            "blurhash": "j4F8dJ;;wNcz:z;JfuRjP4gPXreZ",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -466,7 +465,7 @@
             ]
         },
         {
-            "blurhash": "UEI|j%~BiaMy]O?FO[wHxURP-TOZWUi_oex]",
+            "blurhash": "j5FodJ;:ENgQ:A;JfeRjP4gPXreY",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -484,7 +483,7 @@
             ]
         },
         {
-            "blurhash": "UOIhc|R:kHox?ujFxvRjcbRiV@M_?bNHbIow",
+            "blurhash": "j9EpSbhsG:GVX;BlTdh4rLl3l4gP",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -502,7 +501,7 @@
             ]
         },
         {
-            "blurhash": "UEKTMO_N@XpINfXn%Mxu_2kV9FtSi{V@RORj",
+            "blurhash": "j5Ip9Y;;YgLtdsndTuTt;;Db4hPt",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -520,7 +519,7 @@
             ]
         },
         {
-            "blurhash": "U+QS@.ae_4kCs,j[WXWV%Na#M_j?jZazj]j@",
+            "blurhash": "jpVu7tpl;;CXOSGGlGlCTKpWcPGC",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -538,7 +537,7 @@
             ]
         },
         {
-            "blurhash": "UDI4z]yZ4oxA#OMcVsODD%xI-qX54;eTIpXT",
+            "blurhash": "j4DoJZT;0hSPR1cxl3iG4ySZXKmS",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -556,7 +555,7 @@
             ]
         },
         {
-            "blurhash": "UGHnsTE3W-rs~VN?w|X4S$Rkt7bvxGs,xWR%",
+            "blurhash": "j6CoFP8RmlN5;;i4SHmSiXh5Pcvc",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -574,7 +573,7 @@
             ]
         },
         {
-            "blurhash": "UYLW^ead*0%24nf6DiRjI]RjMxSgMxx]kBRQ",
+            "blurhash": "jdKGWCpkX;Td4gBC8yh4dsl4gOmG",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -592,7 +591,7 @@
             ]
         },
         {
-            "blurhash": "UULghDyZ?H9ax^xv-oX8%2NKNFRPIp?GNHof",
+            "blurhash": "jbKX2vP;;K4zTuTuXtmWTtdah4gP",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -610,7 +609,7 @@
             ]
         },
         {
-            "blurhash": "UGH-S*IbJQQ.}u$ltQkB,u%M9FV@W=Vt%MS3",
+            "blurhash": "j6CU1Q8XdBgy;uSYPbGWWITJ4hl4",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -628,7 +627,7 @@
             ]
         },
         {
-            "blurhash": "UFNA6YD$McENaM%NDNxuyFDhV?=|NL%No}9E",
+            "blurhash": "j4OrGH8hch4Rt6XK80TtT;8gl3;K",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -646,7 +645,7 @@
             ]
         },
         {
-            "blurhash": "UIMj+}*$?B9pYXoitQk8PVO@IZt9ror;s;NG",
+            "blurhash": "j4NcauY3;T0wnPO;PsH4f;fK8FPu",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -664,7 +663,7 @@
             ]
         },
         {
-            "blurhash": "UNGt~CVsX:EQ9_D$IVV?0$gN-T-pMdt8i]X9",
+            "blurhash": "j5AnJxkPjL4F0S4g4zgO0kvu;r;:",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -682,7 +681,7 @@
             ]
         },
         {
-            "blurhash": "UKIW_f_LV?I.i_o_-lOBQ;WWO?bd%1s:t8S6",
+            "blurhash": "j7E89q;;l3d3F4LqXqeCgAlDfsqY",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -700,7 +699,7 @@
             ]
         },
         {
-            "blurhash": "UULXA2%1%%a#oIxZM{kC.TofROWCxuRkogWU",
+            "blurhash": "jbKHeMTcT;pWKCTbgPGXX;KXgPlC",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -718,7 +717,7 @@
             ]
         },
         {
-            "blurhash": "U8JG+q-#?p]:~S[mxrpEpw-;rCAa9^m+IBS%",
+            "blurhash": "j3FUBXXBXX:Y;YZiPaLpLKXKMO9r",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -736,7 +735,7 @@
             ]
         },
         {
-            "blurhash": "UNJ%B,mmnSjC0|xv9vkV0gMx^jfiO@IUVZs.",
+            "blurhash": "j6H8dCIyJaJ20yTu0AHr0icy;KCB",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -754,7 +753,7 @@
             ]
         },
         {
-            "blurhash": "UFDb{1Ro9axbZfRjS%s*0hs+a$V@.9skNGbd",
+            "blurhash": "j0tmFq8t00;;E00h7v;100;zlJ8h",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -772,7 +771,7 @@
             ]
         },
         {
-            "blurhash": "UGD]0b?H4.Rj%1M|IUxt0LV[$*t7-;%LtRRj",
+            "blurhash": "j3umBw;;00gP;scP8yTt00gQXsTc",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -790,7 +789,7 @@
             ]
         },
         {
-            "blurhash": "UZI;hVEMERt802e-M{R,Eks,xDn+tONI={bb",
+            "blurhash": "j2F91S020c;;00sO0g4T0sXl;5RH",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -808,7 +807,7 @@
             ]
         },
         {
-            "blurhash": "UQP?jv.9.Txu-;e-R*Nb%$M{eTxup0ofMwWA",
+            "blurhash": "j9UtDkX;X;TtXKBkhlhmT;gPB3Tt",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -826,7 +825,7 @@
             ]
         },
         {
-            "blurhash": "UoKcR]9|NMs*}BoyjEkDwgxZs+WF%Ma$W=jZ",
+            "blurhash": "jjIEp;4WdcOQ;6LbFkGYNHPbORlr",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -844,7 +843,7 @@
             ]
         },
         {
-            "blurhash": "UHH_GGD*Iq?u}?x]%MxuSgf+D*NL-.IVE3ac",
+            "blurhash": "j6D8FV8z95;;;JTtTJPtiqCX8ydb",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -862,7 +861,7 @@
             ]
         },
         {
-            "blurhash": "ULLNY-4:%MRh~WI[E0?cO=D%eSbv$xaK%Loy",
+            "blurhash": "j7KqWx4hTKh2;;db8y;;fc4ysPrc",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -880,7 +879,7 @@
             ]
         },
         {
-            "blurhash": "UHNJ8q0KBGIpNMpIi]S6oxspD%nz%Mxt%2sk",
+            "blurhash": "j4OGSk006;8QcZLKF2hZPaOI4iJz",
             "city": "Helsinki",
             "currency": "EUR",
             "delivery_price": 390,
@@ -897,5 +896,4 @@
                 "chicken"
             ]
         }
-    ]
-}
+]

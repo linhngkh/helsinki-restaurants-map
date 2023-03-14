@@ -3,12 +3,23 @@ import styled from "styled-components";
 
 import { ButtonStyled } from "../button/Button";
 import data from "../../data.json";
+import { devices } from "../../breakpoint";
+
 const NavBarContainer = styled.div`
   height: 100px;
   position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media ${devices.mobileL} {
+  }
+
+  @media ${devices.tablet} {
+  }
+
+  @media ${devices.laptop} {
+  }
 `;
 
 const Title = styled.h1`

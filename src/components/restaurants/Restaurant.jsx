@@ -1,10 +1,21 @@
 import { useGlobalContext } from "../../context/SortingContext";
 
 import styled from "styled-components";
-
+import { devices } from "../../breakpoint";
 const Section = styled.div`
   width: 100%;
   padding: 1rem 4rem;
+
+  @media ${devices.mobileL} {
+    padding: 2.5rem;
+    width: 90%;
+  }
+
+  @media ${devices.tablet} {
+  }
+
+  @media ${devices.laptop} {
+  }
 `;
 
 const ImageContainers = styled.div`
@@ -12,10 +23,22 @@ const ImageContainers = styled.div`
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 40px;
+
+  @media ${devices.mobileL} {
+    display: block;
+    margin: 0 auto;
+
+    width: 600px;
+  }
 `;
 
 const ImageBox = styled.div`
   padding-bottom: 20px;
+
+  @media ${devices.mobileL} {
+    display: block;
+    margin: auto;
+  }
 `;
 
 const Image = styled.img`
@@ -30,10 +53,19 @@ const Image = styled.img`
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
+
+  @media ${devices.mobileL} {
+    width: 60%;
+  }
 `;
 
 const Title = styled.h2`
   margin-bottom: 7px;
+  font-size: 20px;
+
+  @media ${devices.mobileL} {
+    font-size: 16px;
+  }
 `;
 const Desc = styled.h3`
   margin-bottom: 10px;

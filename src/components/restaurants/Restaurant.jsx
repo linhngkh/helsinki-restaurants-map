@@ -13,9 +13,6 @@ const Section = styled.div`
 
   @media ${devices.tablet} {
   }
-
-  @media ${devices.laptop} {
-  }
 `;
 
 const ImageContainers = styled.div`
@@ -27,7 +24,6 @@ const ImageContainers = styled.div`
   @media ${devices.mobileL} {
     display: block;
     margin: 0 auto;
-
     width: 600px;
   }
 `;

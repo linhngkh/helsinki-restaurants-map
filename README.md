@@ -26,6 +26,6 @@
                   
 - This app shows how I tested some components' functions with testing react library before users using it. 
 ### Demo Link 
-[Click to see](helsinki-restaurants.netlify.app)
+[Click to see](https://helsinki-restaurants.netlify.app/)
 
 ### Video Demo

@@ -53,7 +53,7 @@ const Restaurant = () => {
   return (
     <Section>
       <ImageContainers>
-        {sortingList.map((item, id) => (
+        {sortingList?.map((item, id) => (
           <ImageBox key={id}>
             <Image src={item.image} alt="photo" />
             <Title>{item.name}</Title>

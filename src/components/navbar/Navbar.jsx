@@ -2,7 +2,7 @@ import { useGlobalContext } from "../../context/SortingContext";
 import styled from "styled-components";
 
 import { ButtonStyled } from "../button/Button";
-
+import data from "../../data.json";
 const NavBarContainer = styled.div`
   height: 100px;
   position: sticky;
@@ -32,9 +32,21 @@ const Span = styled.span`
 const Navbar = () => {
   const { sortingList, setSortingList } = useGlobalContext();
 
-  const ascendingName = () => {};
+  const ascendingName = () => {
+    let newArr = [...sortingList];
+    newArr.sort((a, b) => a.name.localeCompare(b.name));
+    setSortingList(newArr);
+  };
 
-  const descendingName = () => {};
+  const descendingName = () => {
+    let newArr = [...sortingList];
+    newArr.sort((a, b) => b.name.localeCompare(a.name));
+    setSortingList(newArr);
+  };
+
+  const mixingSort = () => {
+    setSortingList(data);
+  };
 
   return (
     <NavBarContainer>
@@ -48,6 +60,9 @@ const Navbar = () => {
         <ButtonStyled onClick={descendingName}>
           Sort restaurants from Z-A
         </ButtonStyled>
+      </Span>
+      <Span>
+        <ButtonStyled onClick={mixingSort}>Mix Sort</ButtonStyled>
       </Span>
     </NavBarContainer>
   );

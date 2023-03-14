@@ -50,7 +50,6 @@ const Tags = styled.p`
 `;
 const Restaurant = () => {
   const { sortingList } = useGlobalContext();
-  console.log(sortingList);
   return (
     <Section>
       <ImageContainers>

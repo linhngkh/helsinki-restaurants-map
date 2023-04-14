@@ -48,24 +48,27 @@ const Image = styled.img`
   }
 `;
 
-const Title = styled.h2`
+const Title = styled.h1`
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
   margin-bottom: 7px;
-  font-size: 20px;
   @media (max-width: 600px) {
     margin-bottom: -10px;
+    font-size: 25px;
   }
 `;
-const Desc = styled.h3`
+const Desc = styled.h4`
   margin-bottom: 10px;
 `;
 const Tags = styled.p`
   font-size: 14px;
-  background-color: black;
+  background-color: #cecece;
   padding: 10px;
   width: 5rem;
   display: inline;
   border-radius: 5px;
-  color: white;
+  color: #4c4c4cdf;
   text-transform: capitalize;
   @media (max-width: 600px) {
     width: 7rem;

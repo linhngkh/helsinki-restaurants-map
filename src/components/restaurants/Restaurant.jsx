@@ -21,7 +21,7 @@ const ImageBox = styled.div`
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-flow: dense;
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
   }
 `;
 

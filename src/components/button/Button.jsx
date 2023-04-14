@@ -8,13 +8,18 @@ export const ButtonStyled = styled.button`
   border: 2px solid black;
   background-color: white;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: 7px;
   transition: all 0.5s ease-out;
   &:hover,
   &:focus {
     color: white;
     background-color: black;
+  }
+  @media (max-width: 600px) {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px 7px;
   }
 `;
 

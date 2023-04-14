@@ -10,13 +10,25 @@ const NavBarContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media screen {
+    @media (max-width: 600px) {
+      display: inline-block;
+      text-align: center;
+      margin-top: 10px;
+      
+    }
+  }
 `;
 
 const Title = styled.h1`
   color: black;
+  font-size: 45px;
   transition: all 0.5s ease-out;
   &:hover {
     color: #00c2eb;
+  }
+  @media (max-width: 600px) {
+    font-size: 35px;
   }
 `;
 

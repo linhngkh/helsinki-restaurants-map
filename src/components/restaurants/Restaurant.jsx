@@ -12,6 +12,7 @@ const ImageContainers = styled.div`
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 40px;
+  margin-top: 10px;
 `;
 
 const ImageBox = styled.div`

@@ -10,12 +10,13 @@ const NavBarContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   @media screen {
     @media (max-width: 600px) {
       display: inline-block;
       text-align: center;
       margin-top: 10px;
-      
+      box-shadow: none;
     }
   }
 `;

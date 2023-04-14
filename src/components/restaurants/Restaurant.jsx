@@ -5,6 +5,9 @@ import styled from "styled-components";
 const Section = styled.div`
   width: 100%;
   padding: 1rem 4rem;
+  @media (max-width: 600px) {
+    padding: 40px;
+  }
 `;
 
 const ImageContainers = styled.div`
@@ -13,12 +16,17 @@ const ImageContainers = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 40px;
   margin-top: 10px;
+  @media (max-width: 600px) {
+    display: inline-block;
+    text-align: center;
+  }
 `;
 
 const ImageBox = styled.div`
   padding-bottom: 20px;
   @media (max-width: 600px) {
     display: grid;
+
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-flow: dense;
@@ -43,6 +51,9 @@ const Image = styled.img`
 const Title = styled.h2`
   margin-bottom: 7px;
   font-size: 20px;
+  @media (max-width: 600px) {
+    margin-bottom: -10px;
+  }
 `;
 const Desc = styled.h3`
   margin-bottom: 10px;
@@ -56,6 +67,12 @@ const Tags = styled.p`
   border-radius: 5px;
   color: white;
   text-transform: capitalize;
+  @media (max-width: 600px) {
+    width: 8rem;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+  }
 `;
 const Restaurant = () => {
   const { sortingList } = useGlobalContext();

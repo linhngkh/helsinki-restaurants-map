@@ -13,7 +13,9 @@ const NavBarContainer = styled.div`
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   @media screen {
     @media (max-width: 600px) {
-      display: inline-block;
+      display: block;
+      margin-inline: auto;
+      width: max-content;
       text-align: center;
       margin-top: 10px;
       box-shadow: none;

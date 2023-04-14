@@ -6,7 +6,7 @@ const Section = styled.div`
   width: 100%;
   padding: 1rem 4rem;
   @media (max-width: 600px) {
-    padding: 40px;
+    padding: 0.5rem 2rem;
   }
 `;
 
@@ -68,10 +68,11 @@ const Tags = styled.p`
   color: white;
   text-transform: capitalize;
   @media (max-width: 600px) {
-    width: 8rem;
+    width: 7rem;
     display: inline-block;
     position: relative;
-    left: 100px;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 7px;
   }
 `;

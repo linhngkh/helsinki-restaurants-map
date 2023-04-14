@@ -19,16 +19,12 @@ const NavBarContainer = styled.div`
       text-align: center;
       margin-top: 10px;
       box-shadow: none;
+      margin-bottom: 15px;
     }
   }
 `;
 
 const Title = styled.h1`
-  color: #444;
-  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
-    1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc,
-    3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc,
-    5px 6px 1px #eee, 7px 6px 1px #ccc;
   color: black;
   font-size: 45px;
   font-weight: 900;

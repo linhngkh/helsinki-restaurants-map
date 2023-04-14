@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Container = styled.div``;
 
 export const ButtonStyled = styled.button`
+  width: 150px;
   cursor: pointer;
   padding: 10px 15px;
   border: 2px solid black;
@@ -17,9 +18,8 @@ export const ButtonStyled = styled.button`
     background-color: black;
   }
   @media (max-width: 600px) {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 5px 7px;
+    margin-top: 15px;
+    padding: 3px 5px;
     color: black;
   }
 `;

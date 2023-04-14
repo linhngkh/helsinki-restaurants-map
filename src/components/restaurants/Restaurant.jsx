@@ -16,6 +16,13 @@ const ImageContainers = styled.div`
 
 const ImageBox = styled.div`
   padding-bottom: 20px;
+  @media (max-width: 600px) {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-flow: dense;
+    grid-template-rows: 200px;
+  }
 `;
 
 const Image = styled.img`

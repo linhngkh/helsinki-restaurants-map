@@ -71,7 +71,8 @@ const Tags = styled.p`
     width: 8rem;
     display: inline-block;
     position: relative;
-    left: 80px;
+    left: 100px;
+    padding: 7px;
   }
 `;
 const Restaurant = () => {

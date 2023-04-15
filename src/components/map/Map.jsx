@@ -8,13 +8,13 @@ import MapBox, {
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl/dist/mapbox-gl";
 import MapboxWorker from "mapbox-gl/dist/mapbox-gl-csp-worker";
+mapboxgl.workerClass = MapboxWorker;
 
 import { useGlobalContext } from "../../context/SortingContext";
 
 const TOKEN = process.env.REACT_APP_TOKEN;
 
 const Map = () => {
-  mapboxgl.workerClass = MapboxWorker;
   const { sortingList } = useGlobalContext();
   // set up map
   const initialViewState = {

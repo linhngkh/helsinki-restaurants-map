@@ -6,13 +6,16 @@
 * HTML
 * CSS 
      * Styled-components
-     
+
+* Map
+     * react-map-gl library    
 * Testing react Library   
 
 * Netlify
 
 ### App functionality overview:
-- This web displays all of Helsinki Restaurants from data json file, with images, name, location, tags and so on. 
+- This web displays some of many restaurants in Helsinki city from data JSON file, with information, such as images, name, location, and tags.
+- Also, map is included in the front page, which show all markers of these restaurants, and when users click on the marker, a pop-up will show up, informing about name and food image of its restaurant. 
 - The app also contains 3 buttons functionally: 
 
 > sorting restaurant names from A - Z 

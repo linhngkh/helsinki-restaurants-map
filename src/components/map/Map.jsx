@@ -73,9 +73,7 @@ const Map = () => {
               setSelectedPlace(null);
             }}
           >
-            <div>
-              <p>{selectedPlace.name}</p>
-            </div>
+            <div>{selectedPlace.name}</div>
           </Popup>
         ) : null}
         <NavigationControl position="bottom-right" />

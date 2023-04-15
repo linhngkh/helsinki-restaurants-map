@@ -8,6 +8,7 @@ import MapBox, {
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl/dist/mapbox-gl";
 import MapboxWorker from "mapbox-gl/dist/mapbox-gl-csp-worker";
+import Worker from "worker-loader!./Worker.js";
 mapboxgl.workerClass = MapboxWorker;
 
 import { useGlobalContext } from "../../context/SortingContext";

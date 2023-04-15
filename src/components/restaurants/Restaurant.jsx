@@ -62,7 +62,11 @@ const Title = styled.h1`
 const Desc = styled.h4`
   margin-bottom: 10px;
 `;
+
+const DivTag = styled.div``;
+
 const Tags = styled.p`
+  margin-right: 20px;
   font-size: 14px;
   background-color: #cecece;
   padding: 10px;
@@ -72,11 +76,8 @@ const Tags = styled.p`
   color: #4c4c4cdf;
   text-transform: capitalize;
   @media (max-width: 600px) {
+    display: inline;
     width: 7rem;
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 7px;
   }
 `;
@@ -90,7 +91,10 @@ const Restaurant = () => {
             <Image src={item.image} alt="photo" />
             <Title>{item.name}</Title>
             <Desc>{item.description}</Desc>
-            <Tags>{item.tags}</Tags>
+            <DivTag>
+              <Tags>#{item.tags[0]}</Tags>
+              <Tags>#{item.tags[1]}</Tags>
+            </DivTag>
           </ImageBox>
         ))}
       </ImageContainers>

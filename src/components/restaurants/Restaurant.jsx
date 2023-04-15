@@ -36,6 +36,7 @@ const ImageBox = styled.div`
 `;
 
 const Image = styled.img`
+  cursor: pointer;
   width: 100%;
   height: 300px;
   border-radius: 10px;
@@ -50,6 +51,7 @@ const Image = styled.img`
 `;
 
 const Title = styled.h1`
+  cursor: pointer;
   font-weight: 700;
   font-size: 30px;
   margin-top: 10px;

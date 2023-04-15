@@ -6,18 +6,22 @@ import data from "../../data.json";
 
 const NavBarContainer = styled.div`
   height: 100px;
-  position: sticky;
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   @media screen {
     @media (max-width: 600px) {
       display: block;
       margin-inline: auto;
-      width: max-content;
       text-align: center;
-      margin-top: 10px;
+      width: 100%;
       box-shadow: none;
       margin-bottom: 15px;
     }

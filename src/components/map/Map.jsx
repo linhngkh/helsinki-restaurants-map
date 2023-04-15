@@ -50,6 +50,7 @@ const Map = () => {
       style={{
         width: "100%",
         height: 400,
+        marginTop: "100px",
       }}
     >
       <MapBox

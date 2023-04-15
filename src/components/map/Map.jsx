@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import MapBox, {
   Marker,
   Popup,
@@ -9,6 +9,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { useGlobalContext } from "../../context/SortingContext";
 
 const TOKEN = process.env.REACT_APP_TOKEN;
+
 const Map = () => {
   const { sortingList } = useGlobalContext();
   // set up map
@@ -20,16 +21,29 @@ const Map = () => {
   // set pop up state
   const [selectedPlace, setSelectedPlace] = useState(null);
 
-  // escape key event
-  useEffect(() => {
-    const listener = (e) => {
-      if (e.key === "Escape") {
-        setSelectedPlace(null);
-      }
-    };
-    window.addEventListener("keydown", listener);
-    return () => window.removeEventListener("keydown", listener);
-  }, []);
+  const markers = useMemo(
+    () =>
+      sortingList.map((place, id) => (
+        <Marker
+          key={id}
+          latitude={place.location[1]}
+          longitude={place.location[0]}
+          onClick={(e) => {
+            // If we let the click event propagates to the map, it will immediately close the popup
+            // with `closeOnClick: true`
+            e.originalEvent.stopPropagation();
+            setSelectedPlace(place);
+          }}
+        >
+          <img
+            src="/dinner.png"
+            alt="restaurant"
+            style={{ width: "40px", height: "40px" }}
+          />
+        </Marker>
+      )),
+    []
+  );
 
   return (
     <div
@@ -44,28 +58,9 @@ const Map = () => {
         mapStyle="mapbox://styles/mapbox/streets-v9"
       >
         {/* markers */}
-        {sortingList.map((place, id) => (
-          <Marker
-            key={id}
-            latitude={place.location[1]}
-            longitude={place.location[0]}
-          >
-            <button
-              style={{ cursor: "pointer", background: "none", border: "none" }}
-              onClick={(e) => {
-                e.preventDefault();
-                setSelectedPlace(place);
-              }}
-            >
-              <img
-                src="/dinner.png"
-                alt="restaurant"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </button>
-          </Marker>
-        ))}
-        {selectedPlace ? (
+        {markers}
+        {/* popup */}
+        {selectedPlace && (
           <Popup
             latitude={selectedPlace.location[1]}
             longitude={selectedPlace.location[0]}
@@ -74,8 +69,9 @@ const Map = () => {
             }}
           >
             <div>{selectedPlace.name}</div>
+            <img width="100%" alt="" src={selectedPlace.image} />
           </Popup>
-        ) : null}
+        )}
         <NavigationControl position="bottom-right" />
         <GeolocateControl />
       </MapBox>

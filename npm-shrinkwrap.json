@@ -11,13 +11,15 @@
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
+        "add": "^2.0.6",
         "mapbox-gl": "^2.14.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-map-gl": "^7.0.23",
         "react-scripts": "5.0.1",
         "styled-components": "^5.3.8",
-        "web-vitals": "^2.1.4"
+        "web-vitals": "^2.1.4",
+        "worker-loader": "^3.0.8"
       }
     },
     "node_modules/@adobe/css-tools": {
@@ -4720,6 +4722,11 @@
       "engines": {
         "node": ">=0.4.0"
       }
+    },
+    "node_modules/add": {
+      "version": "2.0.6",
+      "resolved": "https://registry.npmjs.org/add/-/add-2.0.6.tgz",
+      "integrity": "sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q=="
     },
     "node_modules/address": {
       "version": "1.2.2",
@@ -17394,6 +17401,25 @@
       "dependencies": {
         "@types/trusted-types": "^2.0.2",
         "workbox-core": "6.5.4"
+      }
+    },
+    "node_modules/worker-loader": {
+      "version": "3.0.8",
+      "resolved": "https://registry.npmjs.org/worker-loader/-/worker-loader-3.0.8.tgz",
+      "integrity": "sha512-XQyQkIFeRVC7f7uRhFdNMe/iJOdO6zxAaR3EWbDp45v3mDhrTi+++oswKNxShUNjPC/1xUp5DB29YKLhFo129g==",
+      "dependencies": {
+        "loader-utils": "^2.0.0",
+        "schema-utils": "^3.0.0"
+      },
+      "engines": {
+        "node": ">= 10.13.0"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/webpack"
+      },
+      "peerDependencies": {
+        "webpack": "^4.0.0 || ^5.0.0"
       }
     },
     "node_modules/wrap-ansi": {

@@ -29,5 +29,7 @@
 [Click to see](https://helsinki-restaurants.netlify.app/)
 
 ### Video Demo
+[video.webm](https://user-images.githubusercontent.com/44481142/232249282-997ca290-f157-45a4-9f42-c61c80ced098.webm)
+
 ### License
 Data JSON file is from Wolt's Summer 2020 Internships - Engineering Pre-assignment. 

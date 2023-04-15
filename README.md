@@ -1,9 +1,6 @@
 ## Description:
-
 ### Technologies and tools used:
-
-
-* JavaSctipt
+* JavaScript
     * React
         * useContext
 * HTML
@@ -29,3 +26,5 @@
 [Click to see](https://helsinki-restaurants.netlify.app/)
 
 ### Video Demo
+### License
+Data JSON file is from Wolt's Summer 2020 Internships - Engineering Pre-assignment. 

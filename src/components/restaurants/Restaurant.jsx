@@ -3,6 +3,7 @@ import { useGlobalContext } from "../../context/SortingContext";
 import styled from "styled-components";
 
 const Section = styled.div`
+  padding-top: 20px;
   width: 100%;
   background-color: #f0fbfd;
   padding: 1rem 4rem;

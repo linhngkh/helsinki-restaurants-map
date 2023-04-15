@@ -52,6 +52,7 @@ const Map = () => {
         height: 400,
         marginTop: "100px",
       }}
+      id="map"
     >
       <MapBox
         initialViewState={initialViewState}

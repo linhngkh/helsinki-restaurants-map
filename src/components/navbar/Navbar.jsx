@@ -24,6 +24,7 @@ const NavBarContainer = styled.div`
       width: 100%;
       box-shadow: none;
       margin-bottom: 15px;
+      height: 110px;
     }
   }
 `;

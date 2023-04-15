@@ -13,3 +13,9 @@ body {
   background-color: white;
   font-family: "Lato", sans-serif;
 }
+/* style map div */
+@media screen and (max-width: 600px) {
+  #map {
+    padding-top: 30px;
+  }
+}

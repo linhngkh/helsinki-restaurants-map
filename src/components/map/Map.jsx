@@ -6,7 +6,7 @@ import MapBox, {
   GeolocateControl,
 } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-
+import mapboxgl from "!mapbox-gl";
 import { useGlobalContext } from "../../context/SortingContext";
 
 const TOKEN = process.env.REACT_APP_TOKEN;

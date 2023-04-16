@@ -6,8 +6,8 @@ import MapBox, {
   GeolocateControl,
 } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import mapboxgl from "mapbox-gl/dist/mapbox-gl";
-import MapboxWorker from "mapbox-gl/dist/mapbox-gl-csp-worker";
+import mapboxgl from "!mapbox-gl";
+// import MapboxWorker from "mapbox-gl/dist/mapbox-gl-csp-worker";
 // import Worker from "worker-loader!./Worker.js";
 // mapboxgl.workerClass = MapboxWorker;
 

@@ -8,7 +8,7 @@ import MapBox, {
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl/dist/mapbox-gl";
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
+import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
 
 import { useGlobalContext } from "../../context/SortingContext";
 
@@ -74,7 +74,7 @@ const Map = () => {
               setSelectedPlace(null);
             }}
           >
-            <div>{selectedPlace.name}</div>
+            <h3> {selectedPlace.name}</h3>
             <img width="100%" alt="" src={selectedPlace.image} />
           </Popup>
         )}

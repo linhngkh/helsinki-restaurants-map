@@ -18,7 +18,7 @@ const Map = () => {
   const initialViewState = {
     longitude: 24.94184732393478,
     latitude: 60.16993168083865,
-    zoom: 13,
+    zoom: 14,
   };
   // set pop up state
   const [selectedPlace, setSelectedPlace] = useState(null);

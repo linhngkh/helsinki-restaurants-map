@@ -6,7 +6,7 @@ import {
   STORE_CLOSING_TIME,
   INTERVAL,
 } from "../../constants/config";
-import "react-calendar/dist/Calendar.css";
+import "./calendar.styles.css";
 import { add, format } from "date-fns";
 
 const Calendar = () => {

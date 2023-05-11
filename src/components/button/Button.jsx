@@ -18,7 +18,7 @@ export const ButtonStyled = styled.button`
     background-color: black;
   }
   @media (max-width: 600px) {
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 3px 5px;
     color: black;
   }

@@ -7,7 +7,7 @@ import MapBox, {
 } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 // ignore eslint warning, this line helps map show on browser
-import mapboxgl from "!mapbox-gl"; 
+import mapboxgl from "!mapbox-gl";
 import { useGlobalContext } from "../../context/SortingContext";
 
 const TOKEN = process.env.REACT_APP_TOKEN;

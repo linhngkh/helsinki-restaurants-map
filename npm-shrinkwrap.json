@@ -8,9 +8,13 @@
       "name": "restaurant-app",
       "version": "0.1.0",
       "dependencies": {
+        "@tanstack/react-query": "^4.29.5",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
+        "@trpc/client": "^10.25.1",
+        "@trpc/react-query": "^10.25.1",
+        "@trpc/server": "^10.25.1",
         "add": "^2.0.6",
         "date-fns": "^2.30.0",
         "mapbox-gl": "^2.14.1",
@@ -21,7 +25,9 @@
         "react-router-dom": "^6.11.1",
         "react-scripts": "5.0.1",
         "styled-components": "^5.3.8",
-        "web-vitals": "^2.1.4"
+        "superjson": "^1.12.3",
+        "web-vitals": "^2.1.4",
+        "zod": "^3.21.4"
       },
       "devDependencies": {
         "@babel/preset-env": "^7.21.4"
@@ -3814,6 +3820,41 @@
         "url": "https://github.com/sponsors/gregberge"
       }
     },
+    "node_modules/@tanstack/query-core": {
+      "version": "4.29.5",
+      "resolved": "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.29.5.tgz",
+      "integrity": "sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==",
+      "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/tannerlinsley"
+      }
+    },
+    "node_modules/@tanstack/react-query": {
+      "version": "4.29.5",
+      "resolved": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-4.29.5.tgz",
+      "integrity": "sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==",
+      "dependencies": {
+        "@tanstack/query-core": "4.29.5",
+        "use-sync-external-store": "^1.2.0"
+      },
+      "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/tannerlinsley"
+      },
+      "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-native": "*"
+      },
+      "peerDependenciesMeta": {
+        "react-dom": {
+          "optional": true
+        },
+        "react-native": {
+          "optional": true
+        }
+      }
+    },
     "node_modules/@testing-library/dom": {
       "version": "8.20.0",
       "resolved": "https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.0.tgz",
@@ -3907,6 +3948,31 @@
       "engines": {
         "node": ">= 6"
       }
+    },
+    "node_modules/@trpc/client": {
+      "version": "10.25.1",
+      "resolved": "https://registry.npmjs.org/@trpc/client/-/client-10.25.1.tgz",
+      "integrity": "sha512-6ymAOKrbUgi6H/MxDZiDXXiADCF0B2fsGewBe7yWSQGNl/MK1GTuIzltJ6WAUqjmMmzrCxE621uzUihdFZ4tow==",
+      "peerDependencies": {
+        "@trpc/server": "10.25.1"
+      }
+    },
+    "node_modules/@trpc/react-query": {
+      "version": "10.25.1",
+      "resolved": "https://registry.npmjs.org/@trpc/react-query/-/react-query-10.25.1.tgz",
+      "integrity": "sha512-2VFxD8qoULKzlWORU0l2cR0AmOHWNZC8AOpX7v1lZE/IllFzBH5KQGK6pGCQuSqLvxwJEBjSpw4bkFNMrMeg9g==",
+      "peerDependencies": {
+        "@tanstack/react-query": "^4.18.0",
+        "@trpc/client": "10.25.1",
+        "@trpc/server": "10.25.1",
+        "react": ">=16.8.0",
+        "react-dom": ">=16.8.0"
+      }
+    },
+    "node_modules/@trpc/server": {
+      "version": "10.25.1",
+      "resolved": "https://registry.npmjs.org/@trpc/server/-/server-10.25.1.tgz",
+      "integrity": "sha512-zi08QKVvWPK0EEGpEy7i5PlOK9CBlQb3LqiIdmaIpe27DzFNz6+yZ4qXwsLXTwDcDphELl/BNw+RzzQ2+Ou2vw=="
     },
     "node_modules/@trysound/sax": {
       "version": "0.2.0",
@@ -6035,6 +6101,20 @@
       "version": "1.0.6",
       "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
       "integrity": "sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ=="
+    },
+    "node_modules/copy-anything": {
+      "version": "3.0.4",
+      "resolved": "https://registry.npmjs.org/copy-anything/-/copy-anything-3.0.4.tgz",
+      "integrity": "sha512-MaQ9FwzlZ/KLeVCLhzI3rZw0EhrIryfZa3AyT4agVybR0DjlkDHA8898lamLD6kfkf9MMn8D+zDAUR4+GxaymQ==",
+      "dependencies": {
+        "is-what": "^4.1.8"
+      },
+      "engines": {
+        "node": ">=12.13"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/mesqueeb"
+      }
     },
     "node_modules/core-js": {
       "version": "3.29.1",
@@ -9519,6 +9599,17 @@
       },
       "funding": {
         "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/is-what": {
+      "version": "4.1.9",
+      "resolved": "https://registry.npmjs.org/is-what/-/is-what-4.1.9.tgz",
+      "integrity": "sha512-I3FU0rkVvwhgLLEs6iITwZ/JaLXe7tQcHyzupXky8jigt1vu4KM0UOqDr963j36JRvJ835EATVIm6MnGz/i1/g==",
+      "engines": {
+        "node": ">=12.13"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/mesqueeb"
       }
     },
     "node_modules/is-wsl": {
@@ -15975,6 +16066,17 @@
         "kdbush": "^3.0.0"
       }
     },
+    "node_modules/superjson": {
+      "version": "1.12.3",
+      "resolved": "https://registry.npmjs.org/superjson/-/superjson-1.12.3.tgz",
+      "integrity": "sha512-0j+U70KUtP8+roVPbwfqkyQI7lBt7ETnuA7KXbTDX3mCKiD/4fXs2ldKSMdt0MCfpTwiMxo20yFU3vu6ewETpQ==",
+      "dependencies": {
+        "copy-anything": "^3.0.2"
+      },
+      "engines": {
+        "node": ">=10"
+      }
+    },
     "node_modules/supports-color": {
       "version": "7.2.0",
       "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
@@ -16668,6 +16770,14 @@
       "dependencies": {
         "querystringify": "^2.1.1",
         "requires-port": "^1.0.0"
+      }
+    },
+    "node_modules/use-sync-external-store": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz",
+      "integrity": "sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==",
+      "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
       }
     },
     "node_modules/util-deprecate": {
@@ -17646,6 +17756,14 @@
       },
       "funding": {
         "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
+    "node_modules/zod": {
+      "version": "3.21.4",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz",
+      "integrity": "sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==",
+      "funding": {
+        "url": "https://github.com/sponsors/colinhacks"
       }
     }
   }

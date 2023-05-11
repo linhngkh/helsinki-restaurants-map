@@ -1,12 +1,12 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  width: 400px;
-  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 400px;
+  min-height: 100vh;
 `;
 
 export const StyledForm = styled.form`

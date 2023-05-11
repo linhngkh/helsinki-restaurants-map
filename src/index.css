@@ -16,6 +16,6 @@ body {
 /* style map div */
 @media screen and (max-width: 600px) {
   #map {
-    padding-top: 30px;
+    padding-top: 120px;
   }
 }

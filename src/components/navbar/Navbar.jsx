@@ -42,10 +42,22 @@ const Title = styled.h1`
   }
 `;
 
-const LinkItem = styled.a`
+const LinkItem = styled(Link)`
   text-decoration: none;
   color: black;
   cursor: pointer;
+  &:hover:nth-child(2),
+  &:hover:nth-child(3) {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const Span = styled.span`
@@ -76,8 +88,8 @@ const Navbar = () => {
       <LinkItem href="/">
         <Title>Restaurants In Helsinki</Title>
       </LinkItem>
-      <Link to="/booking">Booking</Link>
-      <Link to="/login">Login</Link>
+      <LinkItem to="/booking">Booking</LinkItem>
+      <LinkItem to="/login">Login</LinkItem>
       <ButtonStyled onClick={ascendingName}>
         Sort restaurants from A-Z
       </ButtonStyled>

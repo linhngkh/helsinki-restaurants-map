@@ -7,7 +7,7 @@ import { RestaurantProvider } from "./context/SortingContext";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Calendar from "./pages/booking/Calendar";
 import Login from "./pages/login/Login";
-import Dashboard from "./pages/admin/Dashboard";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,10 +20,6 @@ const router = createBrowserRouter([
   {
     path: "/booking",
     element: <Calendar />,
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard />,
   },
 ]);
 

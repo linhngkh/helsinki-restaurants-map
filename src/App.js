@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Navbar from "./components/navbar/Navbar";
-import Restaurant from "./components/restaurants/Restaurant";
+import Restaurant from "./pages/restaurants/Restaurant";
 import Map from "./components/map/Map";
 
 

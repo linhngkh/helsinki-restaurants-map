@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import ReactCalendar from "react-calendar";
-import { Container, RenderCalendar } from "./Calendar.styles";
+import { Container, DivCalendar } from "./Calendar.styles";
+import {
+  STORE_OPENNING_TIME,
+  STORE_CLOSING_TIME,
+  INTERVAL,
+} from "../../constants/config";
 import "react-calendar/dist/Calendar.css";
-import { add } from "date-fns";
+import { add, format } from "date-fns";
 
 const Calendar = () => {
   const [date, setDate] = useState({
@@ -18,15 +23,15 @@ const Calendar = () => {
     // destructure initial date value object
     const { justDate } = date;
     //config time restaurant open and close and the time we book beforehand
-    const beginning = add(justDate, { hours: 10 });
-    const end = add(justDate, { hours: 20 });
-    //   and the time we book beforehand in minutes(a day)
-    const interval = 1440;
+    const beginning = add(justDate, { hours: STORE_OPENNING_TIME });
+    const end = add(justDate, { hours: STORE_CLOSING_TIME });
+    // the time we book beforehand in minutes(a day)
+    const interval = INTERVAL;
 
     // make empty array for times
     const times = [];
     for (let i = beginning; i <= end; i = add(i, { minutes: interval })) {
-      // push i element in times array
+      // push i element in date array
       times.push(i);
     }
     return times;
@@ -37,7 +42,18 @@ const Calendar = () => {
   return (
     <Container>
       {date.justDate ? (
-        <RenderCalendar></RenderCalendar>
+        <DivCalendar>
+          {times?.map((time, index) => (
+            <div key={`time - ${index}`}>
+              <button
+                type="button"
+                onClick={() => setDate((prev) => ({ ...prev, dateTime: time }))}
+              >
+                {format(time, "kk:mm")}
+              </button>
+            </div>
+          ))}
+        </DivCalendar>
       ) : (
         <ReactCalendar
           minDate={new Date()}

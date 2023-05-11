@@ -8,7 +8,13 @@ export const Container = styled.div`
   min-height: 100vh;
 `;
 
-export const RenderCalendar = styled.div`
+export const DivCalendar = styled.div`
   display: flex;
-  gap: 4;
+  gap: 10px;
+`;
+
+export const ShowCalendar = styled.div`
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 20px;
 `;

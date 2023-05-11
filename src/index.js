@@ -4,11 +4,26 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RestaurantProvider } from "./context/SortingContext";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Calendar from "./components/calendar/Calendar";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/booking",
+    element: <Calendar />,
+  },
+]);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RestaurantProvider>
-      <App />
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
     </RestaurantProvider>
   </React.StrictMode>
 );

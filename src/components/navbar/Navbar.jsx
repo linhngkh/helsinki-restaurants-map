@@ -1,6 +1,6 @@
 import { useGlobalContext } from "../../context/SortingContext";
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 import { ButtonStyled } from "../button/Button";
 import data from "../../data.json";
 
@@ -42,7 +42,7 @@ const Title = styled.h1`
   }
 `;
 
-const Link = styled.a`
+const LinkItem = styled.a`
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -73,9 +73,10 @@ const Navbar = () => {
 
   return (
     <NavBarContainer>
-      <Link href="/">
+      <LinkItem href="/">
         <Title>Restaurants In Helsinki</Title>
-      </Link>
+      </LinkItem>
+      <Link to="/booking">Booking</Link>
       <ButtonStyled onClick={ascendingName}>
         Sort restaurants from A-Z
       </ButtonStyled>

@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Restaurant from "./components/restaurants/Restaurant";
 import Map from "./components/map/Map";
 
+
 function App() {
   return (
     <Fragment>

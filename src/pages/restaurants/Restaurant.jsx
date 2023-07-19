@@ -7,6 +7,7 @@ const Section = styled.div`
   width: 100%;
   background-color: #f0fbfd;
   padding: 1rem 4rem;
+
   @media (max-width: 600px) {
     padding: 0.5rem 2rem;
   }
@@ -18,6 +19,7 @@ const ImageContainers = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 40px;
   margin-top: 10px;
+
   @media (max-width: 600px) {
     display: inline-block;
     text-align: center;
@@ -43,6 +45,7 @@ const Image = styled.img`
   border-radius: 10px;
   object-fit: cover;
   object-position: bottom;
+  box-shadow: rgba(7, 65, 210, 0.1) 0px 9px 30px;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   &:hover {

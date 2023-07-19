@@ -5,21 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RestaurantProvider } from "./context/SortingContext";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Calendar from "./pages/booking/Calendar";
-import Login from "./pages/login/Login";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/booking",
-    element: <Calendar />,
   },
 ]);
 

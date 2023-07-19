@@ -88,7 +88,6 @@ const Navbar = () => {
       <LinkItem href="/">
         <Title>Restaurants In Helsinki</Title>
       </LinkItem>
-      <LinkItem to="/booking">Booking</LinkItem>
       <LinkItem to="/login">Login</LinkItem>
       <ButtonStyled onClick={ascendingName}>
         Sort restaurants from A-Z

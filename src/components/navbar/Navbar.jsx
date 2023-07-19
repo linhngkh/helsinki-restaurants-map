@@ -30,7 +30,20 @@ const NavBarContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  color: black;
+  background: #00c2eb;
+  background: repeating-linear-gradient(
+    to right,
+    #00c2eb 0%,
+    #000790 100%
+  );
+  background-clip: repeating-linear-gradient(
+    to right,
+    #00c2eb 0%,
+    #343605 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   font-size: 45px;
   font-weight: 900;
   transition: all 0.5s ease-out;
@@ -88,7 +101,6 @@ const Navbar = () => {
       <LinkItem href="/">
         <Title>Restaurants In Helsinki</Title>
       </LinkItem>
-      <LinkItem to="/login">Login</LinkItem>
       <ButtonStyled onClick={ascendingName}>
         Sort restaurants from A-Z
       </ButtonStyled>

@@ -2,7 +2,7 @@
 ### Technologies and tools used:
 * JavaScript
     * React
-        * useContext
+        * Context API
 * HTML
 * CSS 
      * Styled-components

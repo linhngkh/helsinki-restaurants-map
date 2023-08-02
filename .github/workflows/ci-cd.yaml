@@ -11,7 +11,7 @@ on:
 jobs:
   # The build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         node-version:
@@ -22,14 +22,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm      
-      - run: npm ci
-      # - run: npm test
+          cache: npm
+      - run: npm test
       - run: npm run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
-          publish-dir: './build'
+          publish-dir: "./build"
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
